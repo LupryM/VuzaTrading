@@ -10,7 +10,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'SecureTech Solutions - Aluminium Fabrication & Security Systems',
+  title: 'VuzaTrading- Aluminium Fabrication & Security Systems',
   description: 'Professional aluminium fabrication, CCTV installation, electric fencing, alarm systems, and intercom solutions. Trusted security experts.',
   generator: 'v0.app',
   icons: {
