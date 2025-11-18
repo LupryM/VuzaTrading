@@ -1,55 +1,37 @@
-import { Card, CardContent } from '@/components/ui/card'
-import { Star } from 'lucide-react'
+import { Card, CardContent } from "@/components/ui/card";
+import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: 'Michael Johnson',
-    role: 'Homeowner',
-    content: 'Outstanding service from start to finish. The CCTV system they installed gives us complete peace of mind. Highly professional team.',
-    rating: 5
+    content:
+      "I was referred to them by my colleague and yes they manufactured and installed my aluminum windows in time and their work is top notch. Vuza Trading is a company you can trust.",
+    rating: 5,
   },
   {
-    name: 'Sarah Williams',
-    role: 'Business Owner',
-    content: 'We needed a comprehensive security solution for our warehouse. SecureTech delivered beyond expectations with their electric fencing and alarm system.',
-    rating: 5
+    content:
+      "Vuza Trading is a company you can trust from CCTV, electric fencing to aluminum work. I have worked with them to secure almost most of my properties since 2020.",
+    rating: 5,
   },
   {
-    name: 'David Brown',
-    role: 'Property Manager',
-    content: 'The aluminium gates they fabricated are not only secure but beautifully designed. Their craftsmanship is exceptional.',
-    rating: 5
+    content:
+      "Very good guy to work with... otherwise I have been working with Vuza Trading for years now.",
+    rating: 5,
   },
-  {
-    name: 'Lisa Martinez',
-    role: 'Residential Client',
-    content: 'Fast, reliable, and professional. The intercom system works flawlessly and integrates perfectly with our existing security setup.',
-    rating: 5
-  },
-  {
-    name: 'James Anderson',
-    role: 'Commercial Client',
-    content: 'We have used SecureTech for multiple projects. Their expertise in security systems is unmatched. Highly recommend!',
-    rating: 5
-  },
-  {
-    name: 'Emma Thompson',
-    role: 'Homeowner',
-    content: 'Professional installation of our alarm system and electric fence. The team was courteous and completed the work on time.',
-    rating: 5
-  }
-]
+];
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="border-b border-border bg-background py-20 lg:py-32">
+    <section
+      id="testimonials"
+      className="border-b border-border bg-background py-20 lg:py-32"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl">
-            Client Testimonials
+            What Customers Have Said About Us
           </h2>
           <p className="mx-auto max-w-2xl text-pretty text-lg text-muted-foreground">
-            Don't just take our word for it. Here's what our satisfied clients have to say about our services.
+            Here are some testimonials from our valued clients.
           </p>
         </div>
 
@@ -62,16 +44,14 @@ export function Testimonials() {
                     <Star key={i} className="h-5 w-5 fill-accent text-accent" />
                   ))}
                 </div>
-                <p className="mb-4 text-muted-foreground">"{testimonial.content}"</p>
-                <div>
-                  <div className="font-semibold text-card-foreground">{testimonial.name}</div>
-                  <div className="text-sm text-muted-foreground">{testimonial.role}</div>
-                </div>
+                <p className="text-muted-foreground italic">
+                  "{testimonial.content}"
+                </p>
               </CardContent>
             </Card>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

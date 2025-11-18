@@ -8,6 +8,7 @@ import {
   Twitter,
   Rss,
   Linkedin,
+  Instagram,
 } from "lucide-react";
 
 export function Footer() {
@@ -27,28 +28,23 @@ export function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/vuzatrading"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-accent"
               >
                 <Facebook className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://x.com/TradingVuza"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-accent"
               >
                 <Twitter className="h-4 w-4" />
               </a>
+
               <a
-                href="#"
+                href="https://www.instagram.com/vuzatrading/"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-accent"
               >
-                <Rss className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-accent"
-              >
-                <Linkedin className="h-4 w-4" />
+                <Instagram className="h-4 w-4" />
               </a>
             </div>
           </div>
@@ -138,7 +134,7 @@ export function Footer() {
           </h3>
           <div className="mx-auto max-w-4xl overflow-hidden rounded-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.7045932423447!2d28.034088315048487!3d-26.195246383474626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c68f0406a51%3A0x238ac9d9b1d34041!2sJohannesburg%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.234567!2d28.15254!3d-26.00647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e5bXXXXXXXX%3A0xYYYYYYYYYYYYY!2sPresident%20Park%20AH%2C%20Midrand%2C%201685%2C%20South%20Africa!5e0!3m2!1sen!2za!4v0000000000000!5m2!1sen!2za"
               width="100%"
               height="300"
               style={{ border: 0 }}
