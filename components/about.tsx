@@ -66,7 +66,7 @@ export function About() {
             <div className="grid grid-cols-2 gap-6">
               <div className="rounded-lg border border-border bg-card p-6 text-center">
                 <Shield className="mx-auto mb-3 h-10 w-10 text-accent" />
-                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-3xl font-bold text-primary">100+</div>
                 <div className="text-sm text-muted-foreground">
                   Projects Completed
                 </div>
