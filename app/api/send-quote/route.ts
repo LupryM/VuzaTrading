@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Replace these with your actual emails
 const SENDER_EMAIL = "onboarding@resend.dev"; // Must be verified in Resend
-const RECIPIENT_EMAIL = "lm.studios.web.com";
+const RECIPIENT_EMAIL = "lm.studios.web@gmail.com";
 
 export async function POST(req: Request) {
   try {

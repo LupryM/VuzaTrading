@@ -73,7 +73,7 @@ export function About() {
               </div>
               <div className="rounded-lg border border-border bg-card p-6 text-center">
                 <Award className="mx-auto mb-3 h-10 w-10 text-accent" />
-                <div className="text-3xl font-bold text-primary">15+</div>
+                <div className="text-3xl font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">
                   Years Experience
                 </div>
