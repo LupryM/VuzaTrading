@@ -5,13 +5,29 @@ export function Hero() {
     <section
       id="home"
       className="relative flex h-[100dvh] items-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/g.jpeg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
     >
+      {/* Mobile Background Image - Upload your cropped mobile version to public/mobile-hero.jpg */}
+      <div
+        className="absolute inset-0 z-0 md:hidden"
+        style={{
+          backgroundImage: "url('/gm.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
+
+      {/* Desktop Background Image */}
+      <div
+        className="absolute inset-0 z-0 hidden md:block"
+        style={{
+          backgroundImage: "url('/g.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
+
       <div className="absolute inset-0 bg-black/30" />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
