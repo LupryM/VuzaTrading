@@ -24,7 +24,7 @@ export function About() {
             <p className="text-muted-foreground leading-relaxed">
               Vuza Trading specializes in comprehensive security and aluminum
               fabrication solutions for residential and commercial properties
-              across South Africa. With over 15 years of experience, we deliver
+              across South Africa. With over 10 years of experience, we deliver
               professional installations that combine technical expertise with
               quality craftsmanship.
             </p>

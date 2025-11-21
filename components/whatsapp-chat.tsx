@@ -8,7 +8,7 @@ export function WhatsAppChat() {
   const [isOpen, setIsOpen] = useState(false);
 
   // Replace with your actual WhatsApp business number (without + or spaces)
-  const phoneNumber = "27655827602"; // Example: South African number
+  const phoneNumber = "27681494588";
   const message =
     "Hi! I would like to inquire about your security and aluminum services.";
 
