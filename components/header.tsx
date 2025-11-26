@@ -67,8 +67,8 @@ export function Header() {
               onClick={(e) => handleNavClick(e, "#portfolio")}
               className="text-sm font-medium uppercase text-foreground transition-colors hover:text-accent"
             >
-              Portfolio
-            </a>
+              Our Work
+            </a>{" "}
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}
@@ -138,8 +138,9 @@ export function Header() {
               onClick={(e) => handleNavClick(e, "#portfolio")}
               className="block rounded-md px-3 py-2 text-base font-medium uppercase text-foreground hover:bg-muted"
             >
-              Portfolio
+              Our Work
             </a>
+
             <a
               href="#contact"
               onClick={(e) => handleNavClick(e, "#contact")}

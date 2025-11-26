@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
-
+import { Gallery } from "@/components/gallery";
 const projects = [
   {
     title: "Residential Security System",
@@ -12,7 +12,7 @@ const projects = [
     category: "Gate & Door Automation",
     image: "/k.jpeg",
   },
-   {
+  {
     title: "Residential Aluminium Windows",
     category: "Windows & Doors",
     image: "/z.jpg",
@@ -22,19 +22,12 @@ const projects = [
     category: "Perimeter Security",
     image: "/d.jpeg",
   },
-    
+
   {
     title: "Custom Aluminium Gates",
     category: "Fabrication",
     image: "/o.jpg",
   },
-  {
-    title: "Office Complex Intercom",
-    category: "Intercom Systems",
-    image: "/x.jpg",
-  },
-
- 
 ];
 
 export function Portfolio() {
@@ -81,6 +74,7 @@ export function Portfolio() {
           ))}
         </div>
       </div>
+      <Gallery />
     </section>
   );
 }
