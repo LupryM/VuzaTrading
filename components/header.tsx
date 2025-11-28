@@ -23,6 +23,7 @@ export function Header() {
   };
 
   return (
+    <meta name="google-site-verification" content="qAHGRW-YzFnUy9Yrn8ak-qWXEh669pORBfpHQ6augBA" />
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="h-1 bg-accent" />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
